@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 200px;
+}
+
+.holderName {
+  box-sizing: border-box;
+
+  width: 365px;
+  height: 45px;
+  border: 2px solid rgb(210, 210, 210);
+  border-radius: 5px;
+}
+
+.nameHeading {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.dateContainer {
+  width: 370px;
+  height: 50px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.monthDateInput {
+  width: 80px;
+  height: 40px;
+  margin-right: 15px;
+}
+
+.yearDateInput {
+  width: 80px;
+  height: 40px;
+  margin-right: 30px;
+}
+
+.cvcInput {
+  width: 160px;
+  height: 40px;
+}
+
+.headingContainer {
+  margin-top: 10px;
+  width: 350px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  border: 2px solid black;
+}
+.expDateHeading {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 15px;
+  word-spacing: 5px;
+}
+
+.cvcHeading {
+  margin-left: 55px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.confirmBtn {
+  outline: none;
+  border: none;
+  height: 50px;
+  background-color: rgb(26, 1, 24);
+  color: white;
+  border-radius: 8px;
+}

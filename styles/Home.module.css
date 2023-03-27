@@ -1,0 +1,132 @@
+.test {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  width: 700px;
+  height: 100vh;
+  border: 2px solid black;
+  background-image: url("../public/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 6;
+}
+
+.right {
+  width: 100%;
+  height: 100vh;
+  border: 2px solid black;
+  z-index: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.creditFront {
+  width: 550px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../public/bg-card-front.png");
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background-size: cover;
+  margin-top: 250px;
+  margin-left: 600px;
+  margin-left: 300px;
+  z-index: 2;
+}
+
+.circlesContainer {
+  margin-top: 10px;
+
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circleFilled {
+  width: 60px;
+  height: 60px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 15px;
+}
+
+.circleEmpty {
+  width: 30px;
+  height: 30px;
+  border: 2px solid white;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.cardNumContainer {
+  margin-left: 35px;
+  margin-top: 70px;
+
+  width: 500px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardNum {
+  margin: 0px;
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-weight: 300;
+  color: white;
+  word-spacing: 8px;
+}
+
+.nameDateContainer {
+  display: flex;
+  width: 550px;
+  height: 30px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.cardName {
+  font-weight: 500;
+  margin-right: 340px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.cardDate {
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+}
+
+.creditBack {
+  width: 550px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  border-radius: 15px;
+  background-image: url("../public/bg-card-back.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 50px;
+  margin-left: 400px;
+  z-index: 2;
+}
+
+.cvcCode {
+  margin-right: 70px;
+  color: rgb(244, 244, 244);
+  letter-spacing: 2px;
+}
